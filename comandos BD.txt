@@ -1,0 +1,22 @@
+		COMANDOS
+
+sudo apt update ---ACTUALIZA EL SISTEMA OPERATIVO
+sudo apt upgrade ---PARA VER SI SE REINICIO CORRECTAMENTE 
+sudo apt install mysql-server ---INSTALAR EL MSQL
+sudo su  ---PARA UN AMAYOR SEGURIDAD CREAR UNA CONTRASEÑA
+sudo msql_secure_installation --- APLICAMOS SEGURADAD AL MSQL
+sudo msql  -u root ---ACCEDEMOS AL MYSQL
+sudo msql  -u root --COLOCAMOS LA CONTRASEÑA AL ROOT DEL MYSQL
+sudo mysql -u root -p ---ACCEDEMOS CON CONTRASEÑA AL ROOT, CREAMOS UN NUEVO USUARIO EN EL MYSQL
+ "create user 'luis'@'localhost' IDENTIFIED WITH mysql_native password BY 'MENCIA12':"
+--OTORGAMOS EL PRIVILEGIOS 
+-- PARA QUE LOS CAMBIOS TENGAN EFECTO INMEDIATAMENTE ELINMINAR ESTOS PRIVILEGIOS 
+---MYSQL flush privileges;
+QUERRY OK, 0 rows affected (0.0.1 sec)
+
+
+--despues conectamos la base de datos al workbench
+
+
+
+ 
